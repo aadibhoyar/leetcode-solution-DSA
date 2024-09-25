@@ -1,5 +1,5 @@
-### 1.[ Two Sum](https://leetcode.com/problems/two-sum/) <span style="color: green;">Easy</span>.
-#### Date:25.09.2024
+### 1.[ Two Sum](https://leetcode.com/problems/two-sum/) 🟩easy
+####  Date:25.09.2024
 ```.py
 def twoSum(nums, target):
     hashMap = {} #to store numbers and their indices
