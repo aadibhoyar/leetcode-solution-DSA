@@ -1,6 +1,6 @@
-### 1.[ Two Sum](https://leetcode.com/problems/two-sum/) 🟩easy
+### 1.[ Two Sum](https://leetcode.com/problems/two-sum/) 🟩
 ####  Date:25.09.2024
-```.py
+```python
 def twoSum(nums, target):
     hashMap = {} #to store numbers and their indices
     for i, num in enumerate(nums):
