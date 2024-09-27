@@ -1,5 +1,5 @@
-### 1.[ Two Sum](https://leetcode.com/problems/two-sum/) 🟩
-###### 25.09.2024
+### 1. [Two Sum](https://leetcode.com/problems/two-sum/) 🟩
+###### 25.09.2024  Time Complexity: O(n^2)
 ```Java
 class Solution {
     public int[] twoSum(int[] nums, int target) {
@@ -14,3 +14,19 @@ class Solution {
     }
 }
 ```
+
+### 242. [Valid Anagram](https://leetcode.com/problems/valid-anagram/) 🟩
+###### 27.09.2024  Time Complexity: O(n log n)
+```Java
+class Solution {
+    public boolean isAnagram(String s, String t) {
+        char[] sArray = s.toCharArray();
+        char[] tArray = t.toCharArray();
+        Arrays.sort(sArray);
+        Arrays.sort(tArray);
+        return Arrays.equals(sArray, tArray);
+    }
+}
+```
+
+
