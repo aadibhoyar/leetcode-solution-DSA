@@ -29,4 +29,21 @@ class Solution {
 }
 ```
 
+### 217. [Contains-duplicate](https://leetcode.com/problems/contains-duplicate/) 🟩
+###### Time Complexity: O(n log n) Date: 27.09.2024  
+```Java
+class Solution {
+    public boolean containsDuplicate(int[] nums) {
+        Arrays.sort(nums);
+        for (int i = 1; i < nums.length; i++) {
+            if (nums[i] == nums[i - 1]) {
+                return true;  // duplicate found
+            }
+        }
+
+        return false; // no duplicate
+    }
+}
+```
+
 
