@@ -4,8 +4,8 @@
 
 - Leetcode-solution-DSA
     - Array And Hashing
-      - 1. Two Sum
-      - 242. Valid Anagram
-      - 217. Contains Duplicate
+      - 1 Two Sum
+      - 242 Valid Anagram
+      - 217 Contains Duplicate
     - Stack
 
