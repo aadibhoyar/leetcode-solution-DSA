@@ -29,7 +29,7 @@ class Solution {
 }
 ```
 
-### 217. [Contains-duplicate](https://leetcode.com/problems/contains-duplicate/) 🟩
+### 217. [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/) 🟩
 ###### Time Complexity: O(n log n) Date: 27.09.2024  
 ```Java
 class Solution {
