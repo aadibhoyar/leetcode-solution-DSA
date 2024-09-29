@@ -46,4 +46,27 @@ class Solution {
 }
 ```
 
+### 49. [Group Anagrams](https://leetcode.com/problems/group-anagrams/description/) 🟩
+###### Time Complexity: O(n * k log k) Date: 29.09.2024  
+```Java
+class Solution {
+    public List<List<String>> groupAnagrams(String[] strs) {
+        Map<String, List<String>> map = new HashMap<>();
+
+        for (String str : strs) {
+            char[] charArray = str.toCharArray();
+            Arrays.sort(charArray);
+            String sortedStr = new String(charArray);
+    
+            if (!map.containsKey(sortedStr)) {
+                map.put(sortedStr, new ArrayList<>());
+            }
+            map.get(sortedStr).add(str);
+        }
+        return new ArrayList<>(map.values());
+    }
+}
+
+```
+
 
