@@ -46,7 +46,7 @@ class Solution {
 }
 ```
 
-### 49. [Group Anagrams](https://leetcode.com/problems/group-anagrams/description/) 🟩
+### 49. [Group Anagrams](https://leetcode.com/problems/group-anagrams/description/) 🟨
 ###### Time Complexity: O(n * k log k) Date: 29.09.2024  
 ```Java
 class Solution {
